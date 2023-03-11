@@ -1,4 +1,4 @@
-@media (max-width:426px) {
+@media (max-width:425px) {
   .plataformas-data h2 {
     font-size: max(14px, 0.2vw);
     font-family: 'teko';
@@ -30,6 +30,51 @@
   }
   
   .sobre-texto p {
+    width: 100%;
+    line-height: 12.5px;
+    margin-top: 9px;
+    font-size: 10px;
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 0.2px;
+  }
+  
+}
+
+@media (max-width:320px) {
+  .plataformas-data h2 {
+    font-size: max(14px, 0.2vw);
+    font-family: 'teko';
+    letter-spacing: 2px;
+  }
+
+  .plataformas {
+    margin-top: 10px;
+  }
+
+  .sobre-texto {
+    padding: 15px;
+    position: absolute;
+    left: 20px;
+    top: -3%;
+  }
+  
+  .sobre-texto h1 {
+    font-size: 13px;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1.5px;
+  }
+  
+  .sobre-texto h2 {
+    font-size: 12px;
+    font-family: 'teko', sans-serif;
+    letter-spacing: 2px;
+    color: #bb1020;
+  }
+  
+  .sobre-texto p {
+    width: 100%;
     line-height: 12.5px;
     margin-top: 9px;
     font-size: 10px;
