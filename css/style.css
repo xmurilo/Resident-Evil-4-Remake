@@ -27,7 +27,7 @@ body {
 }
 
 .plataformas-data h2 {
-  font-size: 26px;
+  font-size: max(26px, 0.2vw);
   font-family: 'teko';
   letter-spacing: 2px;
 }
@@ -63,7 +63,6 @@ body {
 }
 
 .sobre-texto {
-  width: 620px;
   padding: 15px;
   position: absolute;
   left: 35px;
@@ -71,7 +70,7 @@ body {
 }
 
 .sobre-texto h1 {
-  font-size: 42px;
+  font-size: max(32px, 2vw);
   font-family: 'EB Garamond', serif;
   letter-spacing: 1.5px;
 }
@@ -84,9 +83,12 @@ body {
 }
 
 .sobre-texto p {
-  line-height: 40px;
-  font-size: 20px;
+  width: 54%;
+  line-height: 25px;
   margin-top: 15px;
+  font-size: max(12px, 1.5vw);
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 400;
   text-shadow: 2px 2px #000;
   letter-spacing: 0.2px;
 }
