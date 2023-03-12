@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer Resident Evil 4 Remake</title>
-    
+
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/media-query.css" />
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
     />
   </head>
   <body>
-    <section class="logo-inicial">
+     <section class="logo-inicial">
       <img src="imgs/Logojpg.jpg" alt="" />
       <div class="plataformas-data">
         <h2>Disponivel <span>24 de março de 2023</span></h2>
@@ -44,13 +45,37 @@
           Resident Evil 4 é um remake do Resident Evil 4 original de 2005.
           <br />
           Reimaginado para 2023 para trazer horror de sobrevivência de última
-          geração. <br> Resident Evil 4 preserva a essência do jogo original enquanto
+          geração. <br />
+          Resident Evil 4 preserva a essência do jogo original enquanto
           apresenta jogabilidade modernizada, enredo reimaginado e gráficos
           vívidamente detalhados para fazer deste o mais recente jogo de horror
           de sobrevivência, onde a vida e a morte, o terror e a catarse se
           cruzam.
         </p>
       </div>
-    </section>
+    </section> 
+
+    <h1 class="titulo-coutdown">Lançamento em...</h1>
+    <div class="coutdown-container">
+      <div class="countdown-el days-c">
+        <p class="text" id="days">0</p>
+        <span>Dias</span>
+      </div>
+
+      <div class="countdown-el hours-c">
+        <p class="text" id="hours">0</p>
+        <span>Horas</span>
+      </div>
+
+      <div class="coutdown-el mins-c">
+        <p class="text" id="mins">0</p>
+        <span>Minutos</span>
+      </div>
+
+      <div class="coutdown-el seconds-c">
+        <p class="text" id="second">0</p>
+        <span>Segundos</span>
+      </div>
+    </div>
   </body>
 </html>
