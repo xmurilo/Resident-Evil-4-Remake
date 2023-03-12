@@ -1,3 +1,14 @@
+@media (max-width:820px) {
+
+  .sobre-texto {
+    top: 1%;
+  }
+
+  .sobre-texto p {
+    width: 100%;
+  }
+}
+
 @media (max-width:425px) {
   .plataformas-data h2 {
     font-size: max(14px, 0.2vw);
