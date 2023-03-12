@@ -70,7 +70,7 @@ body {
 }
 
 .sobre-texto h1 {
-  font-size: max(32px, 2vw);
+  font-size: 32px;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1.5px;
 }
@@ -86,22 +86,42 @@ body {
   width: 54%;
   line-height: 25px;
   margin-top: 15px;
-  font-size: 16px;
-  font-family: "EB Garamond", sans-serif;
+  font-family: 'EB Garamond', sans-serif;
   font-weight: 400;
   text-shadow: 2px 2px #000;
   letter-spacing: 0.2px;
 }
 
+/* Temporizador */
+
 .titulo-coutdown {
   padding: 15px;
   text-align: center;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   letter-spacing: 5px;
   color: #bb1020;
 }
 .coutdown-container {
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.coutdown-container p {
+  font-family: 'EB Garamond', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+  font-family: 'Teko';
+  letter-spacing: 0.1rem;
 }
