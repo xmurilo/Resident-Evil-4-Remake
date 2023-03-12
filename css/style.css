@@ -55,6 +55,7 @@ body {
 .sobre {
   margin-top: 10px;
   border-top: 2.5px solid #bb1020;
+  border-bottom: 2.5px solid #bb1020;
   position: relative;
 }
 
@@ -92,7 +93,6 @@ body {
   letter-spacing: 0.2px;
 }
 
-/* Temporizador */
 
 .titulo-coutdown {
   padding: 15px;
