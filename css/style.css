@@ -136,18 +136,20 @@ body {
 .container-card h1 {
   font-family: 'EB-Garamond', sans-serif;
   letter-spacing: 5px;
-  color: #bb1020;
   text-align: center;
 }
 
+.container-card h1, h2 {
+  color:#bb1020;
+}
+
+.container-card h2 {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+}
+
 .lista-card {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50% ); */
-
   margin: 50px;
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -155,14 +157,14 @@ body {
 
 .lista-card li {
   width: 500px;
-  height: 560px;
   border: 1px solid #bb1020;
   padding: 10px;
+  margin: 5px;
 }
 
 .lista-card p {
   font-family:'Teko', serif ;
-  font-size: 20px;
+  font-size: 19px;
   letter-spacing: 1px;
 }
 
