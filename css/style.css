@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
   background-color: #000;
   background-attachment: fixed;
   color: #fff;
+  min-height: 100vh;
 }
 
 .logo-inicial {
@@ -37,7 +39,6 @@ body {
 }
 
 .plataformas {
-  list-style-type: none;
   width: 100%;
   display: flex;
   margin-top: 20px;
@@ -124,4 +125,47 @@ body {
   font-size: 1.5rem;
   font-family: 'Teko';
   letter-spacing: 0.1rem;
+}
+
+.container-card {
+  position: relative;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.container-card h1 {
+  font-family: 'EB-Garamond', sans-serif;
+  letter-spacing: 5px;
+  color: #bb1020;
+  text-align: center;
+}
+
+.lista-card {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50% ); */
+
+  margin: 50px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lista-card li {
+  width: 500px;
+  height: 560px;
+  border: 1px solid #bb1020;
+  padding: 10px;
+}
+
+.lista-card p {
+  font-family:'Teko', serif ;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.lista-card img {
+  width: 100%;
 }
