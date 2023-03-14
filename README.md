@@ -6,7 +6,7 @@ mas por hora ele esta praticamente feito posso acrescentar muito mais coisa aind
 
 
 
-https://xmurilo.github.io/Resident-Evil-4-Remake/
+<a href="https://xmurilo.github.io/Resident-Evil-4-Remake/" target="_blank">Clique para ver o funcionamento do site</a>
 
 https://user-images.githubusercontent.com/107772420/225088248-d48e9bc7-44c8-419a-9db7-604237a14fb8.mp4
 
