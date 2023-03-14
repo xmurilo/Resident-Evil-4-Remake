@@ -156,7 +156,7 @@ body {
 }
 
 .lista-card li {
-  width: 500px;
+  width: 300px;
   border: 1px solid #bb1020;
   padding: 10px;
   margin: 5px;
@@ -165,7 +165,7 @@ body {
 .lista-card p {
   font-family:'Teko', serif ;
   font-size: 19px;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
 }
 
 .lista-card img {
