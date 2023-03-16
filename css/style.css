@@ -139,8 +139,9 @@ body {
   text-align: center;
 }
 
-.container-card h1, h2 {
-  color:#bb1020;
+.container-card h1,
+h2 {
+  color: #bb1020;
 }
 
 .container-card h2 {
@@ -163,7 +164,7 @@ body {
 }
 
 .lista-card p {
-  font-family:'Teko', serif ;
+  font-family: 'Teko', serif;
   font-size: 19px;
   letter-spacing: 0.7px;
 }
