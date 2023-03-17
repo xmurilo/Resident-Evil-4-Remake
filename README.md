@@ -5,7 +5,10 @@ deixarei uma prévia do site em video e o link para entrar, o código da onde eu
 por enquanto eu não aprendi JS ainda irei aprender em breve, <a href="https://www.youtube.com/watch?v=BHn_rUBh2kQ">Contagem Regressiva Feita em JS</a>
 </p>
 
-<a href="https:/github.com/xmurilo/Resident-Evil-4-Remake">Clique aqui para vizualizar o site</a>
+<a href="https://xmurilo.github.io/Resident-Evil-4-Remake/">Clique aqui para vizualizar o site</a>
 
-https://user-images.githubusercontent.com/107772420/225703559-2df4fb8e-b63b-4ba4-a679-60c582392fec.mp4
+
+
+
+https://user-images.githubusercontent.com/107772420/225711040-447270e7-bc7d-418c-aa0a-e9699b07094a.mp4
 
