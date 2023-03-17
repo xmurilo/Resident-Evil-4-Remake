@@ -12,6 +12,20 @@ body {
   min-height: 100vh;
 }
 
+*::-webkit-scrollbar {
+  width: 7px;               /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;        /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bb1020;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #bb1020;  /* creates padding around scroll thumb */
+}
+
 .logo-inicial {
   width: 100%;
   position: relative;
