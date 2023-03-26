@@ -106,7 +106,7 @@ body {
   margin-top: 15px;
   font-family: 'EB Garamond', sans-serif;
   font-weight: 400;
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
   letter-spacing: 0.2px;
 }
 
@@ -172,7 +172,7 @@ h2 {
 }
 
 .lista-card {
-  margin: 50px;
+  margin: 50px 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
