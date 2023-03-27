@@ -169,7 +169,6 @@ h2 {
 .container-card h2 {
   letter-spacing: 1px;
   font-size: 24px;
-  margin-top: 20px;
 }
 
 .lista-card {
@@ -186,14 +185,11 @@ h2 {
   margin: 5px;
 }
 
-.lista-card li p {
-  margin-top: 20px;
-}
-
 .lista-card p {
   font-family: 'Teko', serif;
   font-size: 19px;
   letter-spacing: 0.7px;
+  margin-top: 20px;
 }
 
 .lista-card img {
