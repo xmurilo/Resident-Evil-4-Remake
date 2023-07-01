@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width:425px) {
+@media (max-width:426px) {
   .plataformas-data h2 {
     font-size: max(14px, 0.2vw);
     font-family: 'teko';
